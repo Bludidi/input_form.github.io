@@ -1,0 +1,83 @@
+<!DOCTYPE.html> 
+<html>
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Form</title>
+        <link rel="stylesheet" href="inputForm.css">
+    </header>
+    <body>
+    <div id="container">
+<h1 id='heading'>SIGN UP </h1>
+
+ <form>
+<label class="label">Name(s):</label><br>
+<input type="text" id="name" class="input" placeholder="Your name(s)..">
+<br><br>
+     <label class="label">Last Name: </label><br>
+<input type="text" id="lastname" class="input" placeholder="Your last name..">
+     <br><br>
+<label class="label">Gender:</label> <br>
+<select id="gender" class="select ">
+<option value="Male">Male</option>
+<option value="Female ">Female</option>
+</select>
+<br> 
+<br>
+<label for="contact" class="label">Contact No.:</label><br>
+<input type="number" id="contact" class="input" placeholder="Your contact number..">
+<br>
+<br>
+<label class="label">Date of birth:</label><br>
+<input type="date" id="dob" class="input">
+<br>
+<br>
+<label for="email" class="label">Email:</label><br>
+<input type="text" id="email" class="input" placeholder="Your email..">
+<br>
+<br>
+<label for="create-password" class="label">Create password:</label><br>
+<input type="password" id="password1" class="input" placeholder="Password ">
+<br>
+<br>
+<label for="confirm-password" class="label">Confirm password: </label><br>
+<input type="password" id="password2" class="input" placeholder="Password ">
+<br>
+
+<p id="p1" class="paragraph">Select your ethnic group</p>
+<div id='ethnicity' class='lastDiv'><input type="radio" name="ethnicity" class='ethnic'>
+<label>African </label>
+<input type="radio" name="ethnicity" class='ethnic'>
+<label> Caucasian</label>
+<input type="radio" name="ethnicity" class='ethnic'>
+ <label>Coloured</label>
+ <input type="radio" name="ethnicity" class='ethnic'>
+<label>Indian</label>
+    </div>
+
+<p id="p2" class="paragraph">Choose spoken language(s)</p>
+     <div id='language' class='lastDiv'>
+<input type="checkbox" name="language" value="english" class = 'language'> <label>English</label>
+<input type="checkbox" name="language" value="isixhosa" class = 'language'> <label>IsiXhosa</label>
+<input type="checkbox" name="language" value="sesotho" class = 'language'> <label>SeSotho</label>
+<input type="checkbox" name="language" value="afrikaans" class = 'language'> <label>Afrikaans</label>
+</div>
+<br>
+<label class="label">Upload your ID: </label>
+<input type="file" id="file">
+<br>
+<br>
+     <input type='checkbox' id ='tcheck'>
+    <label id='tc' ><a href='termsAndConditions.html' target='_blank'>Terms and Conditions</a></label>
+     <br><br>
+<input type='submit' id='submit' class = 'input'>
+     
+</form>
+        
+
+        
+</div> 
+<script src ='inputForm.js'></script>
+    </body>
+    
+</html>
